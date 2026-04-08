@@ -56,6 +56,8 @@ Para asegurarse de trabajar sobre el fork y no el repositorio original, se ejecu
 
 ---![Descripción de la imagen](images/verificacion%20de%20repositorio.png)
 
+envio al repositorio remoto con commits
+![Descripción de la imagen](images/IMAGENDEPREGUNTA1.png)
 ## Pregunta 2 (1 punto)
 
 **Configurar un archivo `.gitignore` para que ignore:**
