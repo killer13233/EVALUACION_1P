@@ -41,8 +41,20 @@
 **📝 Respuesta:**
 
 <!-- Escribe aquí tu respuesta a la Pregunta 1 -->
+Diferencia entre git clone, fork y git pull
+git clone es un comando de Git que permite copiar un repositorio remoto completo a tu equipo local, incluyendo todo su historial de commits y ramas, para poder trabajar localmente en el proyecto. Por otro lado, un fork es una copia de un repositorio de otra persona que se crea en tu propia cuenta de GitHub, lo que te permite hacer cambios de manera independiente sin afectar el repositorio original y enviar contribuciones mediante pull requests. Finalmente, git pull es un comando que se utiliza para actualizar tu copia local con los cambios que se han hecho en el repositorio remoto, combinando automáticamente los cambios mediante un merge si es necesario.
 
----
+¿Cómo se realizó el fork?
+El fork se realizó ingresando al repositorio original en GitHub y haciendo clic en el botón Fork en la esquina superior derecha. Luego, se seleccionó la cuenta personal de GitHub como destino, lo que creó una copia completa del repositorio en la cuenta del estudiante, permitiendo trabajar sobre él de forma independiente.
+![Descripción de la imagen](images/imagen.png)
+![Descripción de la imagen](images/forkproceso.png)
+¿Cómo se realizó el clone del fork?
+Para clonar el fork, primero se abrió el repositorio en la cuenta personal de GitHub y se copió la URL HTTPS del repositorio. Luego, en el equipo local se ejecutó el comando git clone <URL-del-fork>, descargando todo el repositorio en la máquina local y permitiendo trabajar directamente sobre la copia personal.
+![Descripción de la imagen](images/clonederepositorioremoto.png)
+¿Cómo se verificó que se estaba trabajando sobre el fork y no sobre el repositorio original?
+Para asegurarse de trabajar sobre el fork y no el repositorio original, se ejecutó en la terminal el comando git remote -v y se verificó que la URL mostrada correspondiera al fork del estudiante. Esto garantiza que todos los commits y push realizados se aplicarán únicamente sobre la copia personal del repositorio y no afectarán al original.
+
+---![Descripción de la imagen](images/verificacion%20de%20repositorio.png)
 
 ## Pregunta 2 (1 punto)
 
