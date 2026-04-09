@@ -69,7 +69,9 @@ envio al repositorio remoto con commits
 ### Requisitos:
 
 1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+
 2. Realizar un **segundo commit** que incluya las creación de los archivos de prueba.
+
 2. Realizar un **tercer commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
 **Importante:**  
@@ -77,7 +79,20 @@ envio al repositorio remoto con commits
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
+1. Realizar un **primer commit** que incluya únicamente el archivo `.gitignore` con las reglas de exclusión definidas.
+![Descripción de la imagen](images/nanogitignore.png)
+![Descripción de la imagen](images/pregunta2creaciongitignore.png)
+aqui se puede observar la creacion del archivo gitignore y mediante el comando cat podemos ver que esta adentro
+## Pregunta 2 (1 punto)
+2. Realizar un **segundo commit** que incluya las creación de los archivos de prueba.
+![Descripción de la imagen](images/commit2pregunta2.png)
+aqui podemos observar la creacion de los archivos propuestos por el ingeniero 
+
+2. Realizar un **tercer commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
+El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas no deben ser rastreados por el sistema de control de versiones. Esto es útil para evitar subir al repositorio archivos temporales, archivos de configuración local, logs, compilaciones o cualquier archivo que no sea necesario versionar.
+Se ejecutó el comando `git status` y solo aparecen como no rastreados los archivos que **no están en .gitignore**:
+
+![Descripción de la imagen](images/gitstatuspregunta3-2.png)
 
 ---
 
