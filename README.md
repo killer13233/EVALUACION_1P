@@ -87,15 +87,12 @@ aqui se puede observar la creacion del archivo gitignore y mediante el comando c
 2. Realizar un **segundo commit** que incluya las creación de los archivos de prueba.
 ![Descripción de la imagen](images/commit2pregunta2.png)
 aqui podemos observar la creacion de los archivos propuestos por el ingeniero 
-
-2. Realizar un **tercer commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
-El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas no deben ser rastreados por el sistema de control de versiones. Esto es útil para evitar subir al repositorio archivos temporales, archivos de configuración local, logs, compilaciones o cualquier archivo que no sea necesario versionar.
-Se ejecutó el comando `git status` y solo aparecen como no rastreados los archivos que **no están en .gitignore**:
+3. Realizar un **tercer commit** donde se explique en este README la función del archivo `.gitignore` y se muestre evidencia de que los archivos y carpetas indicadas no están siendo rastreadas por Git.
 
 ![Descripción de la imagen](images/gitstatuspregunta3-2.png)
-
+![Descripción de la imagen](images/GITCOMMITPREGUNTA3CONTAG.png)
+El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas no deben ser rastreados por el sistema de control de versiones. Esto es útil para evitar subir al repositorio archivos temporales, archivos de configuración local, logs, compilaciones o cualquier archivo que no sea necesario versionar. Se ejecutó el comando git status y solo aparecen como no rastreados los archivos que no están en .gitignore
 ---
-
 ## Pregunta 3 (2 puntos)
 
 **Utilizar Git Flow para desarrollar una nueva funcionalidad llamada `ingresar-encabezado`.**
@@ -122,7 +119,7 @@ Se ejecutó el comando `git status` y solo aparecen como no rastreados los archi
 
 **📝 Respuesta:**
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
+
 
 ---
 
