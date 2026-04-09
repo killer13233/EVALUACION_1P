@@ -118,16 +118,17 @@ El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas n
 - El flujo debe respetar la estructura de Git Flow con las ramas `develop` y `main`.
 
 **📝 Respuesta:**
-
-
-<<<<<<< HEAD
 ![Descripción de la imagen](images/inicializaciongitflow.png)
-PRIMERO INICIALIZAMOS EL REPOSITOTIO DE GITHUB MEDIANTE EL COMANDO GITFLOW INIT
+se inicializo git flow mediante el comando gitflow
 
-=======
 commit pregunta 2 
 aqui se lleno los datos del estudiante en readme 
->>>>>>> release/1.0.0
+![Descripción de la imagen](images/commitpregunta3feature.png)
+
+ahora se finalizo hotfix
+![alt text](image.png)
+Se inicializó Git Flow en el repositorio con git flow init, configurando las ramas por defecto main y develop. A continuación se creó la rama feature/ingresar-encabezado desde develop usando git flow feature start ingresar-encabezado, donde se completaron los datos personales del estudiante en el encabezado del archivo README.md y se realizaron los commits correspondientes. Una vez finalizado el desarrollo, se cerró la rama con git flow feature finish ingresar-encabezado, lo que fusionó automáticamente los cambios hacia develop. Luego se creó y finalizó una rama release/1.0.0 con git flow release start 1.0.0 y git flow release finish 1.0.0, llevando los cambios a main y generando el tag de versión. Finalmente se aplicó el tag "Pregunta 3" al commit final en main. Este flujo demuestra las ventajas de Git Flow: mantiene separado el entorno de desarrollo del de producción, permite trabajar en funcionalidades de forma aislada sin afectar el código estable, y proporciona un proceso ordenado y trazable que resulta especialmente útil en equipos colaborativos o proyectos con múltiples versiones en paralelo.
+
 ---
 
 ## Pregunta 4 (2 puntos)
