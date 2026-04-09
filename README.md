@@ -3,8 +3,8 @@
 ### Carrera de [Nombre de la Carrera]  
 
 **Asignatura:** Manejo y Configuración de Software  
-**Nombre del Estudiante:** ___________________________  
-**Fecha:** ___________________  
+**Nombre del Estudiante:** Martin Palacios
+**Fecha:** 08/04/2026
 
 ---
 
@@ -120,7 +120,8 @@ El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas n
 **📝 Respuesta:**
 
 
-
+commit pregunta 2 
+aqui se lleno los datos del estudiante en readme 
 ---
 
 ## Pregunta 4 (2 puntos)
