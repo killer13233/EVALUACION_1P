@@ -120,8 +120,14 @@ El archivo .gitignore se utiliza para indicarle a Git qué archivos o carpetas n
 **📝 Respuesta:**
 
 
+<<<<<<< HEAD
+![Descripción de la imagen](images/inicializaciongitflow.png)
+PRIMERO INICIALIZAMOS EL REPOSITOTIO DE GITHUB MEDIANTE EL COMANDO GITFLOW INIT
+
+=======
 commit pregunta 2 
 aqui se lleno los datos del estudiante en readme 
+>>>>>>> release/1.0.0
 ---
 
 ## Pregunta 4 (2 puntos)
