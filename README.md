@@ -156,8 +156,28 @@ Se inicializó Git Flow en el repositorio con git flow init, configurando las ra
 - El número y enlace al pull request.
 
 **📝 Respuesta:**
+Pregunta 4 (2 puntos)
+Trabajo con Issues y Pull Requests
 
-<!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
+Parte teórica:
+¿Qué es un Pull Request y cuál es su función dentro de un flujo de trabajo colaborativo?
+
+Un Pull Request (PR) es una solicitud formal para fusionar los cambios de una rama hacia otra dentro de un repositorio. Su función principal en un flujo colaborativo es permitir que otros miembros del equipo revisen, comenten y aprueben los cambios antes de integrarlos a la rama principal, garantizando así un control de calidad sobre el código que se incorpora al proyecto.
+
+¿Por qué es importante revisar un Pull Request antes de fusionarlo con la rama principal?
+Revisar un Pull Request antes de fusionarlo es fundamental porque permite detectar errores, bugs o malas prácticas antes de que lleguen a producción. Además, asegura que el código cumple con los estándares del equipo, no genera conflictos con el resto del proyecto y que la funcionalidad implementada responde correctamente a los requisitos establecidos.
+
+¿Qué tipo de observaciones o validaciones se suelen realizar durante la revisión de un Pull Request?
+Durante la revisión de un PR se suelen verificar aspectos como: la calidad y legibilidad del código, el cumplimiento de convenciones de nomenclatura, la ausencia de conflictos con otras ramas, que los commits sean descriptivos y atómicos, que no se incluyan archivos innecesarios, y que la funcionalidad implementada funcione correctamente según lo esperado.
+
+Parte práctica:
+Procedimiento realizado:
+![alt text](image-1.png)
+
+aqui hacemos el pull requese
+![alt text](image-4.png)
+captura de los 2 comentarios 
+![alt text](image-5.png)
 
 ---
 
